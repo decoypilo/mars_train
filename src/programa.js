@@ -53,16 +53,3 @@ btnShow.onmousedown = () => {
   }
   newLink.click();
 };
-
-var ajax = new XMLHttpRequest();
-ajax.open('GET', 'data.php', true);
-
-ajax.send();
-ajax.onreadystatechange = function () {
-  //
-};
-ajax.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    console.log(this.responseText);
-  }
-};
