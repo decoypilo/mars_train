@@ -1,8 +1,8 @@
 {
   "name": "parcel",
   "version": "0.0.1",
-  "author": "Juan Camilo González Jiménez <info@juancgonzalez.com>",
-  "license": "MIT",
+  "author": "marzipan <decoy@dhanyapilo.com>",
+  "license": "Mars College",
   "scripts": {
     "clean": "rimraf www/",
     "start": "yarn run clean && parcel serve src/index.html --out-dir www -p 8080",
